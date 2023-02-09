@@ -12,9 +12,7 @@ class Termo {
   }
 
   static _formatarTexto(texto) {
-    let textoFormatado = texto.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
-
-    return textoFormatado;
+    return texto.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
   }
 
   static _inverterTexto(texto) {
